@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4726027212753593041}
   - component: {fileID: 5058781095531792537}
   - component: {fileID: 5852815291974171633}
+  - component: {fileID: 558441137859503513}
   m_Layer: 0
   m_Name: Cannon_Prefab
   m_TagString: Untagged
@@ -48,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cannonBallPrefab: {fileID: 1047218207032707669, guid: 523a4e83dad11c340befae6fa42eb0e3, type: 3}
   shootPoint: {fileID: 6969965616549733017}
-  shootForce: 30
+  shootForce: 60
 --- !u!114 &5852815291974171633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,6 +66,21 @@ MonoBehaviour:
   rotationSpeed: 20
   xDegree: 0
   yDegree: 0
+--- !u!114 &558441137859503513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4726027212753593040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16844743efb8ad440910130ae87908c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoText: {fileID: 0}
+  totalAmmo: 15
+  currentAmmo: 0
 --- !u!1 &8898442292488759144
 GameObject:
   m_ObjectHideFlags: 0
